@@ -8,14 +8,7 @@
 </ion-header>
 
 <ion-content>
-  <!-- Mostrar mientras la cámara está activa -->
-  <div *ngIf="scanActive" class="camera-container">
-    <p>Apunta tu cámara al código QR</p>
-    <img *ngIf="imageUrl" [src]="imageUrl" alt="Captured Image" />
-    <ion-button expand="full" color="danger" (click)="stopScan()">Detener Escaneo</ion-button>
-  </div>
-
-  <!-- Mostrar cuando la cámara está inactiva -->
+<!-- Mostrar cuando la cámara está inactiva -->
   <div *ngIf="!scanActive">
     <ion-button expand="full" (click)="startScan()">Iniciar Escaneo</ion-button>
   </div>

@@ -18,4 +18,4 @@ git clone prueba3AppsM
 npm install
 npm install @capacitor/camera
 npm install @angular/material --legacy-peer-deps
-npm install @angular/cdk@latest
+npm install @angular/cdk --legacy-peer-deps

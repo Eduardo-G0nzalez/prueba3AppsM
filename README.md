@@ -8,6 +8,7 @@ Este proyecto es una aplicación desarrollada con Ionic y Angular con el fin de 
 
 ##Demostración testing
 ![Captura de pantalla 2024-11-28 225638](https://github.com/user-attachments/assets/1e1fd021-2c5d-4a64-ba8d-182db8ce4921)
+
 ##Todos fueron corregidos, el único error es porque en este proyecto no ocupo la HomePage
 
 ##Instalación
